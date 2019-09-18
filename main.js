@@ -60,10 +60,10 @@ function playStream(idVideoTag, stream) {
 
 const peer = new Peer({ 
     key: 'peerjs', 
-    host: 'mypeer3005.herokuapp.com', 
+    host: 'mypeer1505.herokuapp.com', 
     secure: true, 
     port: 443, 
-    config: customConfig 
+    // config: customConfig 
 });
 
 peer.on('open', id => {
